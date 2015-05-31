@@ -1,0 +1,182 @@
+[{
+    "id": 1,
+    "description": "\u4e0b\u5217\u4e0d\u53ef\u4f5c\u4e3ajava\u8bed\u8a00\u4fee\u9970\u7b26\u7684\u662f",
+    "correct": "D",
+    "answerA": "a1",
+    "answerB": "$1",
+    "answerC": "_1",
+    "answerD": "11"
+}, {
+    "id": 2,
+    "description": "\u6709\u4e00\u6bb5java \u5e94\u7528\u7a0b\u5e8f\uff0c\u5b83\u7684\u4e3b\u7c7b\u540d\u662fa1\uff0c\u90a3\u4e48\u4fdd\u5b58\u5b83\u7684\u6e90\u6587\u4ef6\u540d\u53ef\u4ee5\u662f",
+    "correct": "A",
+    "answerA": "a1.java",
+    "answerB": "a1.class",
+    "answerC": "a1",
+    "answerD": "\u90fd\u5bf9"
+}, {
+    "id": 3,
+    "description": "\u6574\u578b\u6570\u636e\u7c7b\u578b\u4e2d\uff0c\u9700\u8981\u5185\u5b58\u7a7a\u95f4\u6700\u5c11\u7684\u662f",
+    "correct": "D",
+    "answerA": "short",
+    "answerB": "long",
+    "answerC": "int",
+    "answerD": "byte"
+}, {
+    "id": 4,
+    "description": "Java \u7c7b\u53ef\u4ee5\u4f5c\u4e3a",
+    "correct": "Canswer",
+    "answerB": "A \u7c7b\u578b\u5b9a\u4e49\u673a\u5236",
+    "answerC": "\u6570\u636e\u5c01\u88c5\u673a\u5236",
+    "answerD": "\u7c7b\u578b\u5b9a\u4e49\u673a\u5236\u548c\u6570\u636e\u5c01\u88c5\u673a\u5236"
+}, {
+    "id": 5,
+    "description": "\u5728\u521b\u5efa\u5bf9\u8c61\u65f6\u5fc5\u987b",
+    "correct": "C",
+    "answerA": "\u4e0a\u8ff0\u8bf4\u6cd5\u90fd\u5bf9",
+    "answerB": "\u5148\u58f0\u660e\u5bf9\u8c61\uff0c\u7136\u540e\u624d\u80fd\u4f7f\u7528\u5bf9\u8c61",
+    "answerC": "\u5148\u58f0\u660e\u5bf9\u8c61\uff0c\u4e3a\u5bf9\u8c61\u5206\u914d\u5185\u5b58\u7a7a\u95f4\uff0c\u7136\u540e\u624d\u80fd\u4f7f\u7528\u5bf9\u8c61",
+    "answerD": "\u5148\u58f0\u660e\u5bf9\u8c61\uff0c\u4e3a\u5bf9\u8c61\u5206\u914d\u5185\u5b58\u7a7a\u95f4\uff0c\u5bf9\u5bf9\u8c61\u521d\u59cb\u5316\uff0c\u7136\u540e\u624d\u80fd\u4f7f\u7528\u5bf9\u8c61"
+}, {
+    "id": 6,
+    "description": "\u5728\u8c03\u7528\u65b9\u6cd5\u65f6\uff0c\u82e5\u8981\u4f7f\u65b9\u6cd5\u6539\u53d8\u5b9e\u53c2\u7684\u503c\uff0c\u53ef\u4ee5",
+    "correct": "B",
+    "answerA": "A\u548cB\u90fd\u4e0d\u5bf9",
+    "answerB": " \u7528\u57fa\u672c\u6570\u636e\u7c7b\u578b\u4f5c\u4e3a\u53c2\u6570",
+    "answerC": "\u7528\u5bf9\u8c61\u4f5c\u4e3a\u53c2\u6570",
+    "answerD": "A\u548cB\u90fd\u5bf9"
+}, {
+    "id": 7,
+    "description": "Java\u4e2d",
+    "correct": "C",
+    "answerA": "\u4e0a\u8ff0\u8bf4\u6cd5\u90fd\u4e0d\u5bf9",
+    "answerB": "\u4e00\u4e2a\u5b50\u7c7b\u53ef\u4ee5\u6709\u591a\u4e2a\u7236\u7c7b\uff0c\u4e00\u4e2a\u7236\u7c7b\u4e5f\u53ef\u4ee5\u6709\u591a\u4e2a\u5b50\u7c7b",
+    "answerC": "\u4e00\u4e2a\u5b50\u7c7b\u53ef\u4ee5\u6709\u591a\u4e2a\u7236\u7c7b\uff0c\u4f46\u4e00\u4e2a\u7236\u7c7b\u53ea\u53ef\u4ee5\u6709\u4e00\u4e2a\u5b50\u7c7b",
+    "answerD": "\u4e00\u4e2a\u5b50\u7c7b\u53ef\u4ee5\u6709\u4e00\u4e2a\u7236\u7c7b\uff0c\u4f46\u4e00\u4e2a\u7236\u7c7b\u53ef\u4ee5\u6709\u591a\u4e2a\u5b50\u7c7b"
+}, {
+    "id": 8,
+    "description": "Java\u8bed\u8a00\u5177\u6709\u8bb8\u591a\u4f18\u70b9\u548c\u7279\u70b9\uff0c\u54ea\u4e2a\u53cd\u6620\u4e86Java\u7a0b\u5e8f\u5e76\u884c\u673a\u5236\u7684\u7279\u70b9\uff1f",
+    "correct": "A",
+    "answerA": "\u53ef\u79fb\u690d",
+    "answerB": "\u5b89\u5168\u6027",
+    "answerC": "\u591a\u7ebf\u6027",
+    "answerD": "\u8de8\u5e73\u53f0"
+}, {
+    "id": 9,
+    "description": "Character\u6d41\u4e0eByte\u6d41\u7684\u533a\u522b\u662f",
+    "correct": "C",
+    "answerA": "\u6bcf\u6b21\u8bfb\u5165\u7684\u5b57\u8282\u6570\u4e0d\u540c",
+    "answerB": "\u4e8c\u8005\u6ca1\u6709\u533a\u522b\uff0c\u53ef\u4ee5\u4e92\u6362\u4f7f\u7528",
+    "answerC": "\u524d\u8005\u5e26\u6709\u7f13\u51b2\uff0c\u540e\u8005\u6ca1\u6709",
+    "answerD": "\u524d\u8005\u662f\u5b57\u7b26\u8bfb\u5199\uff0c\u540e\u8005\u662f\u5b57\u8282\u8bfb\u5199"
+}, {
+    "id": 10,
+    "description": "\u4ee5\u4e0b\u58f0\u660e\u5408\u6cd5\u7684\u662f",
+    "correct": "D",
+    "answerA": "default  String  s;",
+    "answerB": "public  final  static  native  int  w( )",
+    "answerC": "abstract  double  d;",
+    "answerD": "abstract  final  double  hyperbolicCosine( )"
+}, {
+    "id": 11,
+    "description": "\u5173\u4e8e\u4ee5\u4e0bapplication\u7684\u8bf4\u660e\uff0c\u6b63\u786e\u7684\u662f",
+    "correct": "C",
+    "answerA": "4\u884c\u4e0e9\u884c\u4e0d\u80fd\u901a\u8fc7\u7f16\u8bd1\uff0c\u56e0\u4e3a\u7f3a\u5c11\u65b9\u6cd5\u540d\u548c\u8fd4\u56de\u7c7b\u578b",
+    "answerB": "9\u884c\u4e0d\u80fd\u901a\u8fc7\u7f16\u8bd1\uff0c\u56e0\u4e3a\u53ea\u80fd\u6709\u4e00\u4e2a\u9759\u6001\u521d\u59cb\u5316\u5668",
+    "answerC": "\u7f16\u8bd1\u901a\u8fc7\uff0c\u6267\u884c\u7ed3\u679c\u4e3a\uff1ax=5",
+    "answerD": "\u7f16\u8bd1\u901a\u8fc7\uff0c\u6267\u884c\u7ed3\u679c\u4e3a\uff1ax=3"
+}, {
+    "id": 12,
+    "description": "\u7c7bTest1\u5b9a\u4e49\u5982\u4e0b, \u5c06\u4ee5\u4e0b\u54ea\u79cd\u65b9\u6cd5\u63d2\u5165\u884c3\u662f\u4e0d\u5408\u6cd5\u7684",
+    "correct": "B",
+    "answerA": "public  float  aMethod\uff08float  a\uff0c float  b\uff0cfloat  c\uff09{  }",
+    "answerB": "public  float  aMethod\uff08float  c\uff0cfloat d\uff09{  }",
+    "answerC": "public  int  aMethod\uff08int  a\uff0c int b\uff09{  }",
+    "answerD": "private float aMethod\uff08int a\uff0cint b\uff0cint c\uff09{  }"
+}, {
+    "id": 13,
+    "correct": "A",
+    "answerA": "float  aMethod\uff08float  a\uff0cfloat  b\uff09{ }",
+    "answerB": "public  int  aMethod\uff08int a\uff0cint b\uff09throws  Exception{ }",
+    "answerC": "public  float  aMethod\uff08float  p\uff0cfloat q\uff09{ }",
+    "answerD": "public  int  aMethod\uff08int a\uff0cint  b\uff09throws IOException{ }"
+}, {
+    "id": 14,
+    "description": "\u5173\u4e8e\u4ee5\u4e0b\u7a0b\u5e8f\u6bb5\uff0c\u6b63\u786e\u7684\u8bf4\u6cd5\u662f",
+    "correct": "Canswer",
+    "answerB": "A \u884c4\u4e0e\u884c6\u90fd\u5c06\u6267\u884c",
+    "answerC": "\u884c4\u6267\u884c\uff0c\u884c6\u4e0d\u6267\u884c",
+    "answerD": "\u884c6\u6267\u884c\uff0c\u884c4\u4e0d\u6267\u884c"
+}, {
+    "id": 15,
+    "description": "Java application\u4e2d\u7684\u4e3b\u7c7b\u9700\u5305\u542bmain\u65b9\u6cd5\uff0cmain\u65b9\u6cd5\u7684\u8fd4\u56de\u7c7b\u578b\u662f\u4ec0\u4e48\uff1f",
+    "correct": "D",
+    "answerA": "int",
+    "answerB": "float",
+    "answerC": "double",
+    "answerD": "void"
+}, {
+    "id": 16,
+    "description": "\u4ee5\u4e0b\u54ea\u4e2a\u65b9\u6cd5\u7528\u4e8e\u5b9a\u4e49\u7ebf\u7a0b\u7684\u6267\u884c\u4f53\uff1f",
+    "correct": "C",
+    "answerA": "start()",
+    "answerB": "init()",
+    "answerC": "run()",
+    "answerD": "synchronized()"
+}, {
+    "id": 17,
+    "description": "\u4ee5\u4e0b\u6807\u8bc6\u7b26\u4e2d\u54ea\u9879\u662f\u4e0d\u5408\u6cd5\u7684",
+    "correct": "A",
+    "answerA": "const",
+    "answerB": "$double",
+    "answerC": "hello",
+    "answerD": "BigMeaninglessName"
+}, {
+    "id": 18,
+    "description": "\u4ee5\u4e0b\u54ea\u4e2a\u5173\u952e\u5b57\u53ef\u4ee5\u7528\u6765\u4e3a\u5bf9\u8c61\u52a0\u4e92\u65a5\u9501\uff1f",
+    "correct": "D",
+    "answerA": "transient",
+    "answerB": "static",
+    "answerC": "serialize",
+    "answerD": "synchronized"
+}, {
+    "id": 19,
+    "description": "\u5728Java\u4e2d\uff0c\u4e00\u4e2a\u7c7b\u53ef\u540c\u65f6\u5b9a\u4e49\u8bb8\u591a\u540c\u540d\u7684\u65b9\u6cd5\uff0c\u8fd9\u4e9b\u65b9\u6cd5\u7684\u5f62\u5f0f\u53c2\u6570\u4e2a\u6570\u3001\u7c7b\u578b\u6216\u987a\u5e8f\u5404\u4e0d\u76f8\u540c\uff0c\u4f20\u56de\u7684\u503c\u4e5f\u53ef\u4ee5\u4e0d\u76f8\u540c\u3002\u8fd9\u79cd\u9762\u5411\u5bf9\u8c61\u7a0b\u5e8f\u7684\u7279\u6027\u79f0\u4e3a",
+    "correct": "C",
+    "answerA": "Java\u4e0d\u652f\u6301\u6b64\u7279\u6027",
+    "answerB": "\u9690\u85cf",
+    "answerC": "\u8986\u76d6",
+    "answerD": "\u91cd\u8f7d"
+}, {
+    "id": 20,
+    "description": "\u4ee5\u4e0b\u5173\u4e8e\u6784\u9020\u51fd\u6570\u7684\u63cf\u8ff0\u9519\u8bef\u7684\u662f",
+    "correct": "A",
+    "answerA": "\u4e00\u822c\u5728\u521b\u5efa\u65b0\u5bf9\u8c61\u65f6\uff0c\u7cfb\u7edf\u4f1a\u81ea\u52a8\u8c03\u7528\u6784\u9020\u51fd\u6570\u3002",
+    "answerB": "\u6784\u9020\u51fd\u6570\u7684\u8fd4\u56de\u7c7b\u578b\u53ea\u80fd\u662fvoid\u578b\u3002",
+    "answerC": "\u6784\u9020\u51fd\u6570\u662f\u7c7b\u7684\u4e00\u79cd\u7279\u6b8a\u51fd\u6570\uff0c\u5b83\u7684\u65b9\u6cd5\u540d\u5fc5\u987b\u4e0e\u7c7b\u540d\u76f8\u540c\u3002",
+    "answerD": "\u6784\u9020\u51fd\u6570\u7684\u4e3b\u8981\u4f5c\u7528\u662f\u5b8c\u6210\u5bf9\u7c7b\u7684\u5bf9\u8c61\u7684\u521d\u59cb\u5316\u5de5\u4f5c\u3002"
+}, {
+    "id": 21,
+    "description": "\u4e0b\u5217\u54ea\u4e9b\u8bed\u53e5\u5173\u4e8eJava\u5185\u5b58\u56de\u6536\u7684\u8bf4\u660e\u662f\u6b63\u786e\u7684?",
+    "correct": "B",
+    "answerA": "\u7a0b\u5e8f\u5458\u5fc5\u987b\u521b\u5efa\u4e00\u4e2a\u7ebf\u7a0b\u6765\u91ca\u653e\u5185\u5b58",
+    "answerB": "\u5185\u5b58\u56de\u6536\u7a0b\u5e8f\u53ef\u4ee5\u5728\u6307\u5b9a\u7684\u65f6\u95f4\u91ca\u653e\u5185\u5b58\u5bf9\u8c61",
+    "answerC": "\u5185\u5b58\u56de\u6536\u7a0b\u5e8f\u8d1f\u8d23\u91ca\u653e\u65e0\u7528\u5185\u5b58",
+    "answerD": "\u5185\u5b58\u56de\u6536\u7a0b\u5e8f\u5141\u8bb8\u7a0b\u5e8f\u5458\u76f4\u63a5\u91ca\u653e\u5185\u5b58"
+}, {
+    "id": 22,
+    "description": "\u82e5\u9700\u8981\u5b9a\u4e49\u4e00\u4e2a\u7c7b\u57df\u6216\u7c7b\u65b9\u6cd5\uff0c\u5e94\u4f7f\u7528\u54ea\u79cd\u4fee\u9970\u7b26\uff1f",
+    "correct": "C",
+    "answerA": "static",
+    "answerB": "package",
+    "answerC": "private",
+    "answerD": "public"
+}, {
+    "id": 23,
+    "description": "\u6709\u4ee5\u4e0b\u65b9\u6cd5\u7684\u5b9a\u4e49\uff0c\u8bf7\u9009\u62e9\u8be5\u65b9\u6cd5\u7684\u8fd4\u56de\u7c7b\u578b",
+    "correct": "D",
+    "answerA": "byte",
+    "answerB": "short",
+    "answerC": "int",
+    "answerD": "double"
+}]

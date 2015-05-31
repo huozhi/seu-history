@@ -1,0 +1,12 @@
+[{
+    "fields": {
+        "username": "a",
+        "start_time": "2015-05-29T06:59:40.190Z",
+        "score": 0,
+        "last_login": "2015-05-29T07:03:04.550Z",
+        "end_time": "2015-05-29T06:59:40.190Z",
+        "password": "pbkdf2_sha256$12000$uIIaE4bGKIzO$vcNyjd4apCpWBZuHZmYAz2t43yvmVkppaJ9TAOGAVdI="
+    },
+    "model": "authen.student",
+    "pk": 4
+}]

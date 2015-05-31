@@ -1,0 +1,188 @@
+order 1
+desc 下列不可作为java语言修饰符的是
+correct D
+answerA a1
+answerB $1
+answerC _1
+answerD 11
+
+order 2
+desc 有一段java 应用程序，它的主类名是a1，那么保存它的源文件名可以是
+correct A
+answerA a1.java
+answerB a1.class 
+answerC a1
+answerD 都对
+
+order 3
+desc 整型数据类型中，需要内存空间最少的是
+correct D
+answerA short 
+answerB long
+answerC int
+answerD byte 
+
+order 4
+desc Java 类可以作为
+correct Canswer
+answerB A 类型定义机制
+answerC 数据封装机制
+answerD 类型定义机制和数据封装机制
+上述都不对
+
+order 5
+desc 在创建对象时必须
+correct C
+answerA 上述说法都对
+answerB 先声明对象，然后才能使用对象
+answerC 先声明对象，为对象分配内存空间，然后才能使用对象
+answerD 先声明对象，为对象分配内存空间，对对象初始化，然后才能使用对象
+
+order 6
+desc 在调用方法时，若要使方法改变实参的值，可以
+correct B
+answerA A和B都不对
+answerB  用基本数据类型作为参数
+answerC 用对象作为参数
+answerD A和B都对
+
+
+order 7
+desc Java中
+correct C
+answerA 上述说法都不对
+answerB 一个子类可以有多个父类，一个父类也可以有多个子类
+answerC 一个子类可以有多个父类，但一个父类只可以有一个子类
+answerD 一个子类可以有一个父类，但一个父类可以有多个子类
+
+order 8
+desc Java语言具有许多优点和特点，哪个反映了Java程序并行机制的特点？
+correct A
+answerA 可移植
+answerB 安全性
+answerC 多线性
+answerD 跨平台
+
+
+order 9
+desc Character流与Byte流的区别是
+correct C
+answerA 每次读入的字节数不同
+answerB 二者没有区别，可以互换使用
+answerC 前者带有缓冲，后者没有
+answerD 前者是字符读写，后者是字节读写   
+
+
+order 10
+desc 以下声明合法的是
+correct D
+answerA default  String  s;
+answerB public  final  static  native  int  w( )
+answerC abstract  double  d;
+answerD abstract  final  double  hyperbolicCosine( )
+
+order 11
+desc 关于以下application的说明，正确的是
+correct C
+answerA 4行与9行不能通过编译，因为缺少方法名和返回类型  
+answerB 9行不能通过编译，因为只能有一个静态初始化器
+answerC 编译通过，执行结果为：x=5
+answerD 编译通过，执行结果为：x=3
+
+order 14
+desc 类Test1定义如下, 将以下哪种方法插入行3是不合法的
+correct B
+answerA public  float  aMethod（float  a， float  b，float  c）{  }
+answerB public  float  aMethod（float  c，float d）{  }
+answerC public  int  aMethod（int  a， int b）{  }
+answerD private float aMethod（int a，int b，int c）{  }
+
+order 15
+将以下哪种方法插入行6是不合法的
+correct A
+answerA float  aMethod（float  a，float  b）{ }
+answerB public  int  aMethod（int a，int b）throws  Exception{ }
+answerC public  float  aMethod（float  p，float q）{ }
+answerD public  int  aMethod（int a，int  b）throws IOException{ }
+
+order 16
+desc 关于以下程序段，正确的说法是
+correct Canswer
+answerB A 行4与行6都将执行
+answerC 行4执行，行6不执行
+answerD 行6执行，行4不执行         
+行4、行6都不执行
+
+order 17
+desc Java application中的主类需包含main方法，main方法的返回类型是什么？
+correct D
+answerA int
+answerB float
+answerC double
+answerD void
+
+order 18
+desc 以下哪个方法用于定义线程的执行体？
+correct C
+answerA start()
+answerB init()   
+answerC run()
+answerD synchronized() 
+
+order 19
+desc 以下标识符中哪项是不合法的
+correct A
+answerA const 
+answerB $double        
+answerC hello          
+answerD BigMeaninglessName
+
+order 20
+desc 以下哪个关键字可以用来为对象加互斥锁？
+correct D
+answerA transient         
+answerB static
+answerC serialize         
+answerD synchronized
+
+order 21
+desc 在Java中，一个类可同时定义许多同名的方法，这些方法的形式参数个数、类型或顺序各不相同，传回的值也可以不相同。这种面向对象程序的特性称为
+correct C
+answerA Java不支持此特性
+answerB 隐藏
+answerC 覆盖
+answerD 重载         
+
+order 22
+desc 以下关于构造函数的描述错误的是
+correct A
+answerA 一般在创建新对象时，系统会自动调用构造函数。
+answerB 构造函数的返回类型只能是void型。
+answerC 构造函数是类的一种特殊函数，它的方法名必须与类名相同。
+answerD 构造函数的主要作用是完成对类的对象的初始化工作。
+
+
+order 23
+desc 下列哪些语句关于Java内存回收的说明是正确的? 
+correct B
+answerA 程序员必须创建一个线程来释放内存
+answerB 内存回收程序可以在指定的时间释放内存对象
+answerC 内存回收程序负责释放无用内存
+answerD 内存回收程序允许程序员直接释放内存
+
+
+order 24
+desc 若需要定义一个类域或类方法，应使用哪种修饰符？
+correct C
+answerA static
+answerB package
+answerC private
+answerD public
+
+order 25
+desc 有以下方法的定义，请选择该方法的返回类型
+correct D
+answerA byte
+answerB short
+answerC int
+answerD double

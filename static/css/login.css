@@ -1,0 +1,42 @@
+h1, h2, h4 {
+  color: #666 !important;
+}
+.btn-goon {
+  color: #fff;
+  background-color: #FF6600;
+}
+
+.btn-goon:hover {
+  background-color: #ff9900;
+  color: #fff;
+}
+.jumbotron {
+  background-color: transparent;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.bg-shadow {
+  padding: 2em 0em 2em 0em;
+  display: block;
+  z-index: -1;
+  text-align: center;
+  width: 100%;
+  background-color: #33CC99;
+  background-image: url(/static/img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover ;
+}
+.wrap {
+  width: 100%;
+}
+#loginForm {
+  position: relative;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  text-align: center;  
+}
+#footer {
+  width: 28em;
+}

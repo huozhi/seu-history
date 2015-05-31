@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}答题结束{% endblock %}
+{% block selfcss %}
+<link href="{{STATIC_URL}}css/achieve.css" rel="stylesheet">
+<style type="text/css">
+</style>
+{% endblock %}
+{% block content %}
+
+<div class="jumbotron text-center">
+  <div class="header">
+    <h2>恭喜你，你已经完成了所有题目！</h2>
+    <p>那么来看一下你的成绩吧</p>
+  </div>
+</div>
+<div class="container">
+  <div class="wrap">
+    <div class="score-content">
+      <p>经过系统耐心地计算...</p>
+      <p><span class="glyphicon glyphicon-tasks"></span> 你最后的得分是 {{ score }}</p>
+      <h1>76</h1>
+      <p>你的正确率是 {{ rate }} 56.3 %</p>
+    </div>
+    <br>
+    
+    <div class="btn-group btn-group-justified text-center share" role="group" aria-label="...">
+      <a class="btn btn-warning btn-lg" href="#" role="button">分享到微信</a>
+    </div>
+    <br>
+    <div class="btn-group btn-group-justified text-center share" role="group" aria-label="...">
+      <a href="/" class="btn btn-default btn-lg" role="button">回到登陆界面</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

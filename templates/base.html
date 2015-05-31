@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<title>{% block title %}{% endblock %}</title>
+{% block css %}
+<link rel="stylesheet" href="{{STATIC_URL}}css/vendor/bootstrap.min.css">
+<link rel="stylesheet" href="{{STATIC_URL}}css/common.css">
+{% endblock %}
+{% block selfcss %}{% endblock selfcss %}
+</head>
+<body>
+{% block content %}{% endblock %}
+{% block script %}
+<script src="{{STATIC_URL}}js/vendor/jquery.min.js"></script>
+<script src="{{STATIC_URL}}js/vendor/jquery.cookie.min.js"></script>
+<script src="{{STATIC_URL}}js/vendor/bootstrap.min.js"></script>
+<script src="{{STATIC_URL}}js/common.js"></script>
+
+{% endblock %}
+{% block selfscript %}{% endblock selfscript %}
+</body>
+</html>

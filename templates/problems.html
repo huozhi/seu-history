@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}校史答题界面{% endblock %}
+{% block selfcss %}
+<link rel="stylesheet" href="{{STATIC_URL}}css/main.css">
+<style type="text/css">
+
+
+</style>
+{% endblock %}
+{% block content %}
+
+<div id="header" class="text-center">
+  <h1>校史知识竞赛初赛试题</h1>
+  <div>
+    <h3>
+      <span class="glyphicon glyphicon-time"></span>
+      <span id="timer">0 : 60</span>
+      <a id="submit" class="btn btn-warning" role="button">确认交卷</a>
+    </h3>
+  </div>
+
+  <div class="state-progress">
+    {% for i in choiceProblems %}
+    <div id="choice{{ forloop.counter }}Progresser" class="progress-block"></div>
+    {% endfor %}
+    {% for i in tofProblems %}
+    <div id="tof{{ forloop.counter }}Progresser" class="progress-block"></div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="content">
+  <div class="main">
+    <div class="sr-only">
+      <input class="sr-only" type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
+    </div>
+    <div class="page-header">
+      <h1><small>选择题</small></h1>
+    </div>
+    {% for problem in choiceProblems %}
+    <div class="panel panel-default">
+      <a class="qorder">No.{{ forloop.counter }}</a>
+      <a class="qmark">暂不确定？mark它</a>
+      <div id="choice{{ problem.id }}" class="question question-choice panel-body">
+        <h4>题目描述</h4>
+        <br>
+        <pre class="description"> {{ problem.description }} </pre>
+        <br>
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <a answer="A" class="btn btn-default btn-lg answer answer-true" role="button">{{ problem.answerA }}</a>
+        </div>
+        <br>
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <a answer="B" class="btn btn-default btn-lg answer answer-true" role="button">{{ problem.answerB }}</a>
+        </div>
+        <br>
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <a answer="C" class="btn btn-default btn-lg answer answer-true" role="button">{{ problem.answerC }}</a>
+        </div>
+        <br>
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <a answer="D" class="btn btn-default btn-lg answer answer-true" role="button">{{ problem.answerD }}</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+
+    <div class="page-header">
+      <h1><small>判断题</small></h1>
+    </div>
+    {% for problem in tofProblems %}
+    <div class="panel panel-default">
+      <a class="qorder">No.{{ forloop.counter }}</a>
+      <a class="qmark">暂不确定？mark它</a>
+      <div id="tof{{ problem.id }}" class="question question-tof panel-body">
+        <h4>题目描述</h4>
+        <br>
+        <pre class="description">{{ problem.description }}</pre>
+        <br>
+        <div class="btn-group btn-group-justified" role="group" aria-label="...">
+          <a answer="true" class="btn btn-default btn-lg answer answer-true" role="button">正确</a>
+          <a answer="false" class="btn btn-default btn-lg answer answer-false" role="button">错误</a>
+        </div>
+        <br>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% endblock %}
+
+{% block selfscript %}
+<script src="{{STATIC_URL}}js/main.js"></script>
+<script>
+"use strict";
+
+
+
+</script>
+{% endblock %}

@@ -1,0 +1,48 @@
+html, body {
+  overflow-y: hidden;
+}
+a {
+  color: #999;
+}
+a:hover {
+  text-decoration: none;
+  color: #666;
+}
+.btn {
+  border: none;
+}
+.btn-default,
+.btn-default:active {
+  background-color: #e6e6e6;
+  color: #666;
+}
+.btn-default:hover {
+  background-color: #f0ad4e;
+  color: #fff;
+}
+.jumbotron {
+  background-color: #fff;
+}
+#header > h1 {
+  font-size: 3em;
+}
+#header {
+  position: relative;
+  display: table;
+  width: 100%;
+  top: 0px;
+  color: #fff;
+  background-color: #33CC99;  
+  padding-top: 1em;
+  padding-bottom: 2px;
+  margin-top: 0px;
+  height: 150px;
+}
+.wrap {
+  max-width: 900px;
+  padding-top: 1em;
+}
+.well {
+  padding-left: 4em;
+  padding-right: 4em;
+}

@@ -1,0 +1,45 @@
+.container {
+  padding-top: 3em;
+  display: table;
+}
+.header > h2 {
+  font-size: 2.5em;
+}
+.jumbotron {
+  padding-top: 1em;
+  background-color: #33CC99;
+  color: #fff;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 150px;
+}
+
+.btn-warning,
+.btn-warning:active {
+  background-color: #FF9900;
+}
+.inline-text {
+  display: inline-block;
+  font-size: 2.5em;
+}
+.btn-warning:hover {
+  background-color: #FF6600;
+}
+.share {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrap {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5em;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.score-content > h1 {
+  font-size: 5em;
+}

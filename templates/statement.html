@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}校史说明{% endblock %}
+{% block selfcss %}
+<link rel="stylesheet" href="{{STATIC_URL}}css/statement.css">
+{% endblock %}
+{% block content %}
+
+<div id="header" class=" text-center">
+  <h1>关于本次竞赛的说明</h1>
+  <h4><span>一切解释权归东南大学团委所有</span></h4>
+</div>
+<div class="container wrap">
+  <div class="jumbotron">
+    <div class="btn-group btn-group-justified" >
+      <a id="rules" class="btn btn-default btn-lg">
+        看看规则
+      </a>
+    </div>
+    <br>
+    <div id="statementCollapse">
+      <div class="well text-left">
+        <h2><small>一共有20道分值3分的单选题和20道分值2分的判断题，总分100</small></h2>
+        <h2><small>每个人遇到相同的题可能题号和顺序不同，再次登录<strong>题目不变</strong></small></h2>
+        <h2><small>总共限时30分钟，如果超时系统将<strong>自动提交答案</strong></small></h2>
+        <h2><small>一旦开始答题将不能暂停，但如果掉线系统会<strong>保留你的剩余时间</strong></small></h2>
+      </div>
+    </div>
+
+
+    <br>
+    <div class="btn-group btn-group-justified">
+      <a href="/problems/" class="btn btn-default btn-lg">我已经准备好了，开始答题</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+{% block selfscript %}
+<script src="{{STATIC_URL}}js/statement.js"></script>
+
+{% endblock %}
