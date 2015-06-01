@@ -16,8 +16,15 @@
   
     <div class="bg-shadow">
       <div id="loginForm">
-        <input id="studentId" maxlength="12" type="text" class="form-control" placeholder="学号，如 02A13101" aria-describedby="basic-addon2"><br>
-        <input id="icCard" maxlength="12" required type="text" class="form-control" placeholder="一卡通号. 214130001" aria-describedby="basic-addon1"><br>
+        <input id="studentId" maxlength="12" type="text" class="form-control" placeholder="学号，如 02A13101" aria-describedby="basic-addon"><br>
+        <input id="icCard" maxlength="12" required type="text" class="form-control" placeholder="一卡通号. 214130001" aria-describedby="basic-addon"><br>
+          <!-- <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2"> -->
+          <!-- <span class="input-group-addon" id="basic-addon2">@example.com</span> -->
+        <div class="captcha-input">
+          <input id="captcha" maxlength="6" required type="text" class="form-control" placeholder="验证码，请输入右边图片中的文字" aria-describedby="basic-addon">
+          <img class="img-responsive" src="{{ captcha_url }}">
+        </div>
+        <br>
         <div class="sr-only">
           <input class="sr-only" type="hidden" name="csrfmiddlewaretoken" value="{{ csrf_token }}">
         </div>

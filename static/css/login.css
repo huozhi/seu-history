@@ -40,3 +40,18 @@ h1, h2, h4 {
 #footer {
   width: 28em;
 }
+.captcha-input {
+  display: table;
+  width: 100%;
+}
+.captcha-input > input {
+  display: table-cell;
+  width: 75%;
+  float: left;
+}
+.captcha-input > img {
+  display: table-cell;
+  width: 25%;
+  height: 34px;
+  float: right;
+}

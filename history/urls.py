@@ -10,6 +10,7 @@ from apps.problem.views import Quiz, Result
 urlpatterns = patterns('',
     url(r'^favicon\.ico$', RedirectView.as_view(url='/static/favicon.ico')),
     url(r'^$', Authenticate.as_view()),
+    url(r'^captcha/', include('captcha.urls')),
     url(r'^statement/$', login_required(TemplateView.as_view(template_name="statement.html"))),
     url(r'^problems/$', Quiz.as_view()),
     url(r'^achieve/$', Result.as_view()),
