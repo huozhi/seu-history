@@ -20,10 +20,10 @@
   </div>
 
   <div class="state-progress">
-    {% for i in choiceProblems %}
+    {% for i in choice_problems %}
     <div id="choice{{ forloop.counter }}Progresser" class="progress-block"></div>
     {% endfor %}
-    {% for i in tofProblems %}
+    {% for i in tof_problems %}
     <div id="tof{{ forloop.counter }}Progresser" class="progress-block"></div>
     {% endfor %}
   </div>
@@ -37,7 +37,7 @@
     <div class="page-header">
       <h1><small>选择题</small></h1>
     </div>
-    {% for problem in choiceProblems %}
+    {% for problem in choice_problems %}
     <div class="panel panel-default">
       <a class="qorder">No.{{ forloop.counter }}</a>
       <a class="qmark">暂不确定？mark它</a>
@@ -68,7 +68,7 @@
     <div class="page-header">
       <h1><small>判断题</small></h1>
     </div>
-    {% for problem in tofProblems %}
+    {% for problem in tof_problems %}
     <div class="panel panel-default">
       <a class="qorder">No.{{ forloop.counter }}</a>
       <a class="qmark">暂不确定？mark它</a>

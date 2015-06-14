@@ -7,14 +7,13 @@ from django.contrib import auth
 from captcha.models import CaptchaStore
 from captcha.helpers import captcha_image_url
 
-
 # Create your views here.
 class Authenticate(View):
     def get(self, request):
         context = {}
-        context.update(csrf(request))
-        context['captcha_key'] = CaptchaStore.generate_key()
-        context['captcha_url'] = captcha_image_url(context['captcha_key'])
+        captcha_key = CaptchaStore.generate_key()
+        request.session['captcha_key'] = captcha_key
+        context['captcha_url'] = captcha_image_url(captcha_key)
         return render(request, 'index.html', context)
 
     def post(self, request):
@@ -22,6 +21,7 @@ class Authenticate(View):
         try:
             username = post.get('username')
             password = post.get('password')
+            
             user = auth.authenticate(username=username, password=password)
             if user is not None and user.is_active:  
                 auth.login(request, user)

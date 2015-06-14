@@ -111,14 +111,13 @@ class Quiz(View):
     def get(self, request):
         context = {}
         context['loop'] = range(40)
-        context.update(csrf(request))
         user = {}
         user['username'] = 'a'
         user['password'] = 'a'
         user['score'] = 0
         helper = ProblemGenerateHelper(user)
-        context['choiceProblems'] = helper.choiceProblems()[:3]
-        context['tofProblems'] = helper.tofProblems()[:3]
+        context['choice_problems'] = helper.choiceProblems()[:3]
+        context['tof_problems'] = helper.tofProblems()[:3]
         return render(request, 'problems.html', context)
 
     def post(self, request):
@@ -137,23 +136,25 @@ class Quiz(View):
                 'qtype': 'tof',
                 'answers': post.get('tofAnswers')
             }
-            user['tofAnswers'] = tofAnswers
-            user['choiceAnswers'] = choiceAnswers
+            user['tof_answers'] = tofAnswers
+            user['choice_answers'] = choiceAnswers
             helper = ProblemCheckHelper(user)
             score, correctNum = helper.checkChoice()
         except Exception, e:
             traceback.print_exc()
         request.session['score'] = score
         context['score'] = score
-        context['correctNum'] = correctNum
+        context['correct_num'] = correctNum
         return redirect('/achieve/', context)
 
 
 class Result(View):
     def get(self, request):
         context = {}
-        context['score'] = 76
-        context['correctNum'] = 4
+        correctNum, score = 4, 76
+        context['score'] = score
+        context['correct_num'] = correctNum
+        context['rate'] = round(float(correctNum) / float(40), 1)
         return render(request, 'achieve.html', context)
 
 
