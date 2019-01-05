@@ -15,10 +15,8 @@ Frontend: Bootstrap, jQuery
 
 ### Screen Shoots
 
-![login](http://huozhi.github.io/img/2015/xiaoshi/login.jpg)
+![login](https://user-images.githubusercontent.com/4800338/50723937-c77c9600-111f-11e9-88b8-0c67dbc55272.jpg)
+![problem-01](https://user-images.githubusercontent.com/4800338/50723938-c8152c80-111f-11e9-9e71-c58f319089e0.jpg)
+![problem-02](https://user-images.githubusercontent.com/4800338/50723939-c8adc300-111f-11e9-8741-c0f525b9f791.jpg)
+![result](https://user-images.githubusercontent.com/4800338/50723940-c9465980-111f-11e9-9587-7417fe83e91b.jpg)
 
-![problem-1](http://huozhi.github.io/img/2015/xiaoshi/problem-01.jpg)
-
-![problem-2](http://huozhi.github.io/img/2015/xiaoshi/problem-02.jpg)
-
-![result](http://huozhi.github.io/img/2015/xiaoshi/result.jpg)
